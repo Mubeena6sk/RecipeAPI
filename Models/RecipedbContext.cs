@@ -19,6 +19,7 @@ namespace RecipeAPI.Models
 
         public virtual DbSet<Ingredient> Ingredients { get; set; }
         public virtual DbSet<IngredientsIndex> IngredientsIndices { get; set; }
+        public virtual DbSet<MyRecipe> MyRecipes { get; set; }
         public virtual DbSet<Recipe> Recipes { get; set; }
         public virtual DbSet<Table> Tables { get; set; }
 
@@ -71,6 +72,15 @@ namespace RecipeAPI.Models
                     .HasForeignKey(d => d.Rid)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__Ingredients__RId__38996AB5");
+            });
+
+            modelBuilder.Entity<MyRecipe>(entity =>
+            {
+                entity.Property(e => e.Id).ValueGeneratedNever();
+
+                entity.Property(e => e.RId).HasColumnName("RId");
+
+            
             });
 
             modelBuilder.Entity<Recipe>(entity =>

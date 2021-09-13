@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace RecipeAPI.Models
 {
-    public class Recipe
+    public partial class Recipe
     {
         public Recipe()
         {

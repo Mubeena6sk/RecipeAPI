@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mshaik\\demo_projects\\RecipeAPI\\RecipeAPI.csproj": {}
+    "C:\\Users\\mshaik\\demo_projects\\RecipeAPI_\\RecipeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mshaik\\demo_projects\\RecipeAPI\\RecipeAPI.csproj": {
+    "C:\\Users\\mshaik\\demo_projects\\RecipeAPI_\\RecipeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mshaik\\demo_projects\\RecipeAPI\\RecipeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mshaik\\demo_projects\\RecipeAPI_\\RecipeAPI.csproj",
         "projectName": "RecipeAPI",
-        "projectPath": "C:\\Users\\mshaik\\demo_projects\\RecipeAPI\\RecipeAPI.csproj",
+        "projectPath": "C:\\Users\\mshaik\\demo_projects\\RecipeAPI_\\RecipeAPI.csproj",
         "packagesPath": "C:\\Users\\mshaik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mshaik\\demo_projects\\RecipeAPI\\obj\\",
+        "outputPath": "C:\\Users\\mshaik\\demo_projects\\RecipeAPI_\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mshaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
